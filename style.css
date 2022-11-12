@@ -1,0 +1,93 @@
+/*
+Theme Name: Simple Theme for All
+Theme URI:
+Author: Sabrina Grivas
+Author URI: https://sabrinagrivas.com/
+Description: Professional looking theme that can be incorporated into any type of website 
+Version: 1.0.0
+License: GNU General Public License v2 or Later
+License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html
+Text Domain: simple-theme-for-all
+*/
+
+/* ==================
+Universal Styling
+============== */
+body{
+  font-family: 'Poppins', sans-serif;
+  color: rgb(29, 29, 29);
+}
+a {
+  color: rgb(29, 29, 29);
+  text-decoration: none;
+}
+h1{
+  font-weight: 700;
+  font-size: 3rem;
+}
+h2{
+  font-size: 2rem;
+}
+h3{
+  font-size: 1.6rem;
+}
+.page-h1 {
+  padding: 40px 0 30px;
+}
+/* ==================
+Navigation Styling
+============== */
+#menu-main-menu {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  list-style: none;
+  gap: 10px;
+  margin: 10px;
+  padding: 0px;
+}
+/* ==================
+Blog Styling
+============== */
+.featured-image img{
+  height: 300px;
+  object-fit: cover;
+  width: 100%;
+  padding-bottom: 15px;
+}
+.individual-post{
+  padding-bottom: 40px;
+}
+.post-intro{
+  padding: 40px 0;
+  gap: 20px;
+}
+/* ==================
+Footer Styling
+============== */
+footer{
+  background-color: #F8F9FA;
+  margin-top: 50px;
+  padding: 20px 5px;
+}
+#menu-middle-footer{
+  list-style: none;
+  padding: 20px 0;
+}
+.footer-logo{
+  font-weight: 700;
+  font-size: 2rem;
+}
+@media screen and (min-width: 992px){
+  #menu-main-menu {
+    flex-direction: row;
+    gap: 40px;
+    padding: 0px 20px;
+  }
+  footer {
+    padding: 40px;
+  }
+  #menu-middle-footer{
+    padding: 0;
+  }
+}
